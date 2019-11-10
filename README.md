@@ -27,3 +27,15 @@ lessons you struggled with below:
 ### CSS Flexbox
 **Align Elements Using the align-items Property**
 - This makes everything make so much more sense! I've used flexboxes and couldn't find a consistent way to center items inside of them but that is because I was using some rows and some columns and now I get the actual difference between justify content and align-items.
+### CSS Grid
+**Use grid-column to Control Spacing**
+- This one took me several tries because of how the grid lines are numbered and the fact that you span three numbers i.e 1 / 3 to make the item span two spaces. It was a little bit of a difficult concept to wrap my head around at first.
+### CSS Grid
+**Align an Item Horizontally using justify-self**
+- It took me a little bit to understand why when you justify the item to center it becomes so small. I understand now that you are taking it off the pre-set stretch and now it is only the size of the text that is inside of it. it leaves me wondering how to justify only the items inside the grid item, I assume center-text will work for text but what if I had a photo inside the grid that I wanted centered while keeping a grid background that stayed stretched? I wonder if I would just have to do the math and use margins or if there is a better way.
+### CSS Grid
+**Place Items in Grid Areas Using the grid-area Property**
+- This is an interesting way way to avoid using grid-column or grid-row that may make the code make more sense since you are using names to identify where the items are going as opposed to just numbers i.e "header" as opposed to 2 / 4.
+### CSS Grid
+**Limit Item Size Using the minmax Function**
+- I am a little confused as to what this is actually doing and why. I see that when I resize the window, the columns have a minimum height and don't get smaller as opposed to the rows which resize consistantly. My question is on the fr unit, as I understand that means fraction so why would we use 1fr as the maximum height when it would be smaller than the 90px minimum height in most cases when resizing the screen. I guess that actually does make sense, I just had to work through it, the items will get bigger when the whole grid is larger and smaller until the items reach 90px, I think the fr unit was just throwing me off before. 
