@@ -63,3 +63,12 @@ lessons you struggled with below:
 ### Basic JavaScript
 **Use Recursion to Create a Range of Numbers**
 - I struggled a little because I forgot to pass in both startNum and endNum - 1 into the recurring function, of course it needs both arguements passed in, I just wasn't thinking about it. 
+### ES6
+**Use a Rest {arameter with Function Parameters**
+- I understand the rest parameter but am confused as to what the reduce function is doing and where the a and b are coming from... it seems from looking up the reduce function the a is a callback and the b is the initial value which still confuses me. Oh no, I see, we are using an arrow function to pass in the arguements a and b and then add them together as the callback and the initial value is 0... I get it now.
+### ES6
+**Use Destructuring Assignment to Pass an Object as a Function's Parameters**
+- I am confused on this one when we get rid of 'stats' how does the function know which object to pull max and min from? What if two objects had max and min keys, how would you specify the object the function is using? ... Oh yeah, when you call the function the object is the arguement, silly me. 
+### ES6
+**Create Strings using Template Literals**
+- I had to look up the answer for this question. It uses the map function which I don't believe we've been introduced to so that was confusing for me. I believev I could have used a loop to do the same thing but it would be many more lines of code. The map function is really cool and helpful taking each item in the array and doing something with it, I've never used it before but I can see many uses.
