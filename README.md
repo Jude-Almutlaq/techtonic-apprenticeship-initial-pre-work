@@ -39,3 +39,6 @@ lessons you struggled with below:
 ### CSS Grid
 **Limit Item Size Using the minmax Function**
 - I am a little confused as to what this is actually doing and why. I see that when I resize the window, the columns have a minimum height and don't get smaller as opposed to the rows which resize consistantly. My question is on the fr unit, as I understand that means fraction so why would we use 1fr as the maximum height when it would be smaller than the 90px minimum height in most cases when resizing the screen. I guess that actually does make sense, I just had to work through it, the items will get bigger when the whole grid is larger and smaller until the items reach 90px, I think the fr unit was just throwing me off before. 
+### Basic JavaScript
+**Stand in Line**
+- I struggled with this a little, partially because I forgot the shift command, mostly because I forgot to use 'var' before my variable... woops.
