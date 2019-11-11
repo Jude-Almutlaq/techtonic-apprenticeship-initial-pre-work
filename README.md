@@ -17,7 +17,7 @@ lessons you struggled with below:
 - I didn't know there was an easy way of making a setup like this for questions with single answers. it is also good to know that it is common practice to use a for attribute in the label with a value equal to the input id. I'm not familiar with assistive technologies or how they work work but knowing best practive for them seems likely to be useful.
 ### Introduction to Basic HTML and HTML5
 **Create a Set of Checkboxes**
-- I am a little confused as to why these inputs need to be wrapped in a label element and if they would loose some functionality if they weren't?Is that just common practice in order for it to look nicely formatted?
+- I am a little confused as to why these inputs need to be wrapped in a label element and if they would lose some functionality if they weren’t? Is that just common practice in order for it to look nicely formatted?
 ### Basic CSS
 **Use an id Attribute to Style an Element**
 - I did not realize that ids were more specific than classes and therefore override the styles of the class if both are applied. I can see where this would be helpful when you want two items in the same class to have mostly the same styles but one slightly different and also where this can cause problems if you don't realize where the style is coming from. 
@@ -56,7 +56,7 @@ lessons you struggled with below:
 - This was a bit of a difficult concept for me to grasp. I see now that we are calling the same function within a function and just passing in the arguement - 1 which will make the function essentially loop until the first if statement is met and the return kicks you out of the function before it loops again. It was just a little confusing at first.
 ### Basic JavaScript
 **Profile Lookup**
-- This challange was definitely more difficult for me than most. I think I was approaching the problem wrong by thinking "how do I chack that the property doesn't exist?" instead of checking first that it does and then using an else statement. I also struggled with where to put the "no such contact", not realizing it needs to go outside the for loop.
+- This challange was more difficult for me than most. I think I was approaching the problem wrong by thinking "how do I chack that the property doesn't exist?" instead of checking first that it does and then using an else statement. I also struggled with where to put the "no such contact", not realizing it needs to go outside the for loop.
 ### Basic JavaScript
 **Use the Conditional (Ternary) Operator**
 - This is very cool shorthand I've never used before, easy to understand and read, saves on lines of code. I like it!
@@ -64,11 +64,12 @@ lessons you struggled with below:
 **Use Recursion to Create a Range of Numbers**
 - I struggled a little because I forgot to pass in both startNum and endNum - 1 into the recurring function, of course it needs both arguements passed in, I just wasn't thinking about it. 
 ### ES6
-**Use a Rest {arameter with Function Parameters**
+**Use a Rest Parameter with Function Parameters**
 - I understand the rest parameter but am confused as to what the reduce function is doing and where the a and b are coming from... it seems from looking up the reduce function the a is a callback and the b is the initial value which still confuses me. Oh no, I see, we are using an arrow function to pass in the arguements a and b and then add them together as the callback and the initial value is 0... I get it now.
 ### ES6
 **Use Destructuring Assignment to Pass an Object as a Function's Parameters**
 - I am confused on this one when we get rid of 'stats' how does the function know which object to pull max and min from? What if two objects had max and min keys, how would you specify the object the function is using? ... Oh yeah, when you call the function the object is the arguement, silly me. 
 ### ES6
 **Create Strings using Template Literals**
-- I had to look up the answer for this question. It uses the map function which I don't believe we've been introduced to so that was confusing for me. I believev I could have used a loop to do the same thing but it would be many more lines of code. The map function is really cool and helpful taking each item in the array and doing something with it, I've never used it before but I can see many uses.
+- I had to look up the answer for this question. It uses the map function which I don't believe we've been introduced to so that was confusing for me. I believe I could have used a loop to do the same thing but it would be many more lines of code. The map function is really cool and helpful taking each item in the array and doing something with it, I've never used it before but I can see many uses.
+
