@@ -42,3 +42,24 @@ lessons you struggled with below:
 ### Basic JavaScript
 **Stand in Line**
 - I struggled with this a little, partially because I forgot the shift command, mostly because I forgot to use 'var' before my variable... woops.
+### Basic JavaScript
+**Selecting from Many Options with Switch Statements**
+- I have never used switch statements before, this is a cool tool and an interesting alternative to long else if chains although setting a case for each scenario seems like it could be tedius or not possible.
+### Basic JavaScript
+**Adding a Default Option in Switch Statements**
+- Aha! My previous concern about the switch statements is revoked, the default is a nice tool to avoid that problem. Also, this took me a little while bacuse I didn't realize the letters needed to be in quotes, seems like it should have been obvious, alas, it was not.
+### Basic JavaScript
+**Multiple Identical Options in Switch Statements**
+- This is another cool tool although using else if statements for this scenario seems better because you can use > and < with numbers, but I can see where this is better for other things like strings where multiple answers are accepted like "yes" and also "Yes" as inputs or something. 
+### Basic JavaScript
+**Replace Loops using Recursion**
+- This was a bit of a difficult concept for me to grasp. I see now that we are calling the same function within a function and just passing in the arguement - 1 which will make the function essentially loop until the first if statement is met and the return kicks you out of the function before it loops again. It was just a little confusing at first.
+### Basic JavaScript
+**Profile Lookup**
+- This challange was definitely more difficult for me than most. I think I was approaching the problem wrong by thinking "how do I chack that the property doesn't exist?" instead of checking first that it does and then using an else statement. I also struggled with where to put the "no such contact", not realizing it needs to go outside the for loop.
+### Basic JavaScript
+**Use the Conditional (Ternary) Operator**
+- This is very cool shorthand I've never used before, easy to understand and read, saves on lines of code. I like it!
+### Basic JavaScript
+**Use Recursion to Create a Range of Numbers**
+- I struggled a little because I forgot to pass in both startNum and endNum - 1 into the recurring function, of course it needs both arguements passed in, I just wasn't thinking about it. 
