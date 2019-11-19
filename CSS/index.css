@@ -17,7 +17,7 @@ nav {
     background-color: aliceblue;
     color: #48687C;
     display: flex;
-    height: 65px; 
+    height: 55px; 
     justify-content: center;
     align-items: center;
 }
@@ -36,13 +36,28 @@ h1, h2, h3 {
 aside {
     background-color: #72AECC;
     width: 28%;
-    height: 728px;
+    height: 735px;
     margin: 1%;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+    margin: 20px;
+    border-style: double;
+    border-color: #48687C;
+    border-width: 20px;
+
 }
 
 aside p {
     font-size: 16pt;
     margin: 35px;
+}
+
+a {
+    color: #F2259B;
+    text-decoration: none;
 }
 
 section {
@@ -79,8 +94,8 @@ section {
     bottom: 0;
  }
  #hobbies p {
-     line-height: 0%;
-     padding: 0px 20px 0px 20px
+    line-height: 0%;
+    padding: 0px 20px 0px 20px
  }
  footer {
     background-color: #48687C;
